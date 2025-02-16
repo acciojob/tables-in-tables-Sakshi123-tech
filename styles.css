@@ -1,6 +1,15 @@
 
-/* Your CSS Code here. */
-table,th,td
-{
-	border:1px solid black;
-}
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+            border: 1px solid black;
+        }
+        th, td, caption {
+            border: 1px solid black;
+            text-align: center;
+        }
+        .black-background {
+            background-color: black;
+            color: white;
+        }
+    
